@@ -17,8 +17,6 @@ Invoice Splitter lets you upload or input a combined invoice, select the clients
 - **Database** – PostgreSQL accessed via Knex.
 - **Frontend** – React (Vite) with TypeScript.
 
-## Setup
-
 ### Prerequisites
 - Node.js (>= 18)
 - npm or yarn
@@ -51,13 +49,12 @@ Invoice Splitter lets you upload or input a combined invoice, select the clients
 | `DATABASE_URL` | PostgreSQL connection string | `postgres://user:password@localhost:5432/invoice_db` |
 | `JWT_SECRET` | Secret key for JWT authentication (if needed) | `supersecretkey` |
 
-## Running the Application
 ### Development
-- **Backend**:  
+- **Backend**:
   ```bash
   npm run backend:dev
   ```
-- **Frontend**:  
+- **Frontend**:
   ```bash
   npm run frontend
   ```
@@ -86,11 +83,20 @@ Run unit tests for the backend:
 npm test
 ```
 
-## Contributing
-Feel free to open issues or submit pull requests. Please follow the code of conduct and keep the project's modular structure.
-
 ## Built by
 
 **Irfan N** — [@mynameisirfan93](https://www.instagram.com/mynameisirfan93/)
 
 From **Tekzbyte**
+
+## License
+
+© Irfan N — Tekzbyte. All rights reserved.
+
+You may run and use this project for your own purposes, free of charge.
+
+You may **not** copy, redistribute, modify, rebrand, or resell this code — in whole
+or in part, with or without changes — without written permission from the author.
+
+Found a problem or have an idea? Open an issue or message
+[@mynameisirfan93](https://www.instagram.com/mynameisirfan93/).
